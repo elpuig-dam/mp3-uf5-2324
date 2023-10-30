@@ -95,6 +95,10 @@ public class ExerciciL {
 
         //13 - Rejovenir dos anys a totes les persones
 
+        //14. A partir de la següent llista de noms d'alumnes crea una nova llista d'alumnes amb aquest alumnes nous
+        // pots modificar la classe alumne si cal.
+        List<String> alumnesNous = Arrays.asList("Pedro","Pablo","Bilma");
+
     }
 
 
