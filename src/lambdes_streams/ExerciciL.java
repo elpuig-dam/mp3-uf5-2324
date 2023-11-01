@@ -95,9 +95,32 @@ public class ExerciciL {
 
         //13 - Rejovenir dos anys a totes les persones
 
-        //14. A partir de la següent llista de noms d'alumnes crea una nova llista d'alumnes amb aquest alumnes nous
-        // pots modificar la classe alumne si cal.
+        //14. A partir de la següent llista de noms d'alumnes crea una nova llista d'alumnes amb aquests alumnes nous
+        // pots modificar la classe alumne si cal. I imprimeix la llista dels nous alumnes
         List<String> alumnesNous = Arrays.asList("Pedro","Pablo","Bilma");
+
+        //Creem cotxes i els assignem a les diferents persones
+        Cotxe c1 = new Cotxe("Seat Ibiza");
+        Cotxe c2 = new Cotxe("Seat Leon");
+        Cotxe c3 = new Cotxe("Seat Arona");
+        Cotxe c4 = new Cotxe("Toyota Auris");
+        Cotxe c5 = new Cotxe("Toyota Corolla");
+        Cotxe c6 = new Cotxe("Toyota Yaris");
+        p1.setCotxe(c1); p2.setCotxe(c2);
+        p3.setCotxe(c1); p4.setCotxe(c3);
+        p5.setCotxe(c4); p6.setCotxe(c4);
+        p7.setCotxe(c5); p8.setCotxe(c6);
+        p9.setCotxe(c5); p10.setCotxe(c3);
+        p11.setCotxe(c2);
+        //15. Crear una llista de persones amb el coxes de la marca Seat i una altra
+        // amb les persones que tenen un Toyota. Fes servir streams
+        // imprimeix les dues llistes per ordenades per l'edat de les persones
+        System.out.println("\n15 - Persones amb Seat i Toyota");
+
+        //16. Imprimeix les persones ordenades per ordre alfabètic de la marca dels cotxes
+        System.out.println("\n16 - Persones ordenades per ordre alfabètic de la marca dels cotxes");
+
+
 
     }
 

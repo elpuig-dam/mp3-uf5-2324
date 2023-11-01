@@ -1,7 +1,7 @@
 package lambdes_streams;
 
 public class Cotxe {
-    String marca;
+    private String marca;
     public Cotxe(String m) {
         marca = m;
     }
